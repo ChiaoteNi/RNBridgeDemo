@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A156963A069E74A5B6B24F6 /* Pods_RNBridgeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6CBF06B75D7A3830654621 /* Pods_RNBridgeDemo.framework */; };
+		845384D4217E28E7000BA938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845384D3217E28E7000BA938 /* AppDelegate.swift */; };
+		845384D6217E28E7000BA938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845384D5217E28E7000BA938 /* ViewController.swift */; };
+		845384D9217E28E7000BA938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845384D7217E28E7000BA938 /* Main.storyboard */; };
+		845384DB217E28E8000BA938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845384DA217E28E8000BA938 /* Assets.xcassets */; };
+		845384DE217E28E8000BA938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845384DC217E28E8000BA938 /* LaunchScreen.storyboard */; };
+		84639527217EC31300D5A758 /* RNViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84639526217EC31300D5A758 /* RNViewManager.swift */; };
+		8463957C217EFEE700D5A758 /* RNVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463957B217EFEE700D5A758 /* RNVideoView.swift */; };
+		8463957E217F03A300D5A758 /* RNVideoViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463957D217F03A300D5A758 /* RNVideoViewManager.swift */; };
+		846412F6217E431200189014 /* RNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846412F3217E431200189014 /* RNView.swift */; };
+		846412F7217E431200189014 /* RNViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846412F4217E431200189014 /* RNViewManager.m */; };
+		846412FA217E435300189014 /* RNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846412F9217E435300189014 /* RNManager.swift */; };
+		846412FC217E445600189014 /* RNManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 846412FB217E445600189014 /* RNManagerBridge.m */; };
+		849D70C42182E26D00D068C1 /* SearchAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70C32182E26D00D068C1 /* SearchAsset.swift */; };
+		849D70C72182E53200D068C1 /* CommonSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70C62182E53200D068C1 /* CommonSettings.swift */; };
+		849D70E42182E6F300D068C1 /* Extension + Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70C92182E6F300D068C1 /* Extension + Date.swift */; };
+		849D70E52182E6F300D068C1 /* Extension + WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70CA2182E6F300D068C1 /* Extension + WKWebView.swift */; };
+		849D70E62182E6F300D068C1 /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70CB2182E6F300D068C1 /* Extension + UIButton.swift */; };
+		849D70E72182E6F300D068C1 /* Extension + UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70CC2182E6F300D068C1 /* Extension + UICollectionView.swift */; };
+		849D70E82182E6F300D068C1 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70CD2182E6F300D068C1 /* Extension + UIViewController.swift */; };
+		849D70E92182E6F300D068C1 /* Extension + Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70CE2182E6F300D068C1 /* Extension + Data.swift */; };
+		849D70EA2182E6F300D068C1 /* Extension + Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70CF2182E6F300D068C1 /* Extension + Bundle.swift */; };
+		849D70EB2182E6F300D068C1 /* Extension + UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D02182E6F300D068C1 /* Extension + UIDevice.swift */; };
+		849D70EC2182E6F300D068C1 /* Extension + UIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D12182E6F300D068C1 /* Extension + UIPageViewController.swift */; };
+		849D70ED2182E6F300D068C1 /* Extension + UITabBar + UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D22182E6F300D068C1 /* Extension + UITabBar + UITabBarController.swift */; };
+		849D70EE2182E6F300D068C1 /* Extension + UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D32182E6F300D068C1 /* Extension + UILabel.swift */; };
+		849D70EF2182E6F300D068C1 /* Extension + UIImage + UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D42182E6F300D068C1 /* Extension + UIImage + UIImageView.swift */; };
+		849D70F02182E6F300D068C1 /* Extension + UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D52182E6F300D068C1 /* Extension + UISearchBar.swift */; };
+		849D70F12182E6F300D068C1 /* Extension + UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D62182E6F300D068C1 /* Extension + UIApplication.swift */; };
+		849D70F22182E6F300D068C1 /* Extension + UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D72182E6F300D068C1 /* Extension + UIScrollView.swift */; };
+		849D70F32182E6F300D068C1 /* Extension + URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D82182E6F300D068C1 /* Extension + URL.swift */; };
+		849D70F42182E6F300D068C1 /* Extension + CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70D92182E6F300D068C1 /* Extension + CALayer.swift */; };
+		849D70F52182E6F300D068C1 /* Extension + CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70DA2182E6F300D068C1 /* Extension + CAGradientLayer.swift */; };
+		849D70F62182E6F300D068C1 /* Extension + UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70DB2182E6F300D068C1 /* Extension + UITableView.swift */; };
+		849D70F72182E6F300D068C1 /* Extension + String + NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70DC2182E6F300D068C1 /* Extension + String + NSAttributedString.swift */; };
+		849D70F82182E6F300D068C1 /* Extension + Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70DD2182E6F300D068C1 /* Extension + Dictionary.swift */; };
+		849D70F92182E6F300D068C1 /* Extension + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70DE2182E6F300D068C1 /* Extension + UIColor.swift */; };
+		849D70FA2182E6F300D068C1 /* Extension + NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70DF2182E6F300D068C1 /* Extension + NSObject.swift */; };
+		849D70FB2182E6F300D068C1 /* Extension + Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70E02182E6F300D068C1 /* Extension + Array.swift */; };
+		849D70FC2182E6F300D068C1 /* Extension + UIView + UINib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70E12182E6F300D068C1 /* Extension + UIView + UINib.swift */; };
+		849D70FD2182E6F300D068C1 /* Extension + UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70E22182E6F300D068C1 /* Extension + UITextView.swift */; };
+		849D70FE2182E6F300D068C1 /* Extension + CGAffineTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70E32182E6F300D068C1 /* Extension + CGAffineTransform.swift */; };
+		849D71012182E78800D068C1 /* SearchAssestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D70FF2182E78800D068C1 /* SearchAssestCell.swift */; };
+		849D71022182E78800D068C1 /* SearchAssestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D71002182E78800D068C1 /* SearchAssestCell.xib */; };
+		84BFF581217EAF2900E1AB78 /* RNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFF580217EAF2900E1AB78 /* RNView.m */; };
+		84F8FEF1217F18D6002E6A8C /* RNVideoViewManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F8FEF0217F18D6002E6A8C /* RNVideoViewManagerBridge.m */; };
+		84F8FEF3217F1CEB002E6A8C /* RNVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F8FEF2217F1CEB002E6A8C /* RNVideoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2101A74E70B5F6BAB1564AF9 /* Pods-RNBridgeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBridgeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNBridgeDemo/Pods-RNBridgeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3E6CBF06B75D7A3830654621 /* Pods_RNBridgeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNBridgeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7550C3B44B26BAEB01A150DC /* Pods-RNBridgeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBridgeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNBridgeDemo/Pods-RNBridgeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		845384D0217E28E7000BA938 /* RNBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845384D3217E28E7000BA938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845384D5217E28E7000BA938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845384D8217E28E7000BA938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845384DA217E28E8000BA938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845384DD217E28E8000BA938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845384DF217E28E8000BA938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845384E8217E2D29000BA938 /* RNBridgeDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNBridgeDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		84639526217EC31300D5A758 /* RNViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNViewManager.swift; sourceTree = "<group>"; };
+		8463957B217EFEE700D5A758 /* RNVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNVideoView.swift; sourceTree = "<group>"; };
+		8463957D217F03A300D5A758 /* RNVideoViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNVideoViewManager.swift; sourceTree = "<group>"; };
+		846412F3217E431200189014 /* RNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNView.swift; sourceTree = "<group>"; };
+		846412F4217E431200189014 /* RNViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNViewManager.m; sourceTree = "<group>"; };
+		846412F9217E435300189014 /* RNManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNManager.swift; sourceTree = "<group>"; };
+		846412FB217E445600189014 /* RNManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNManagerBridge.m; sourceTree = "<group>"; };
+		849D70C32182E26D00D068C1 /* SearchAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAsset.swift; sourceTree = "<group>"; };
+		849D70C62182E53200D068C1 /* CommonSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSettings.swift; sourceTree = "<group>"; };
+		849D70C92182E6F300D068C1 /* Extension + Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + Date.swift"; sourceTree = "<group>"; };
+		849D70CA2182E6F300D068C1 /* Extension + WKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + WKWebView.swift"; sourceTree = "<group>"; };
+		849D70CB2182E6F300D068C1 /* Extension + UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
+		849D70CC2182E6F300D068C1 /* Extension + UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UICollectionView.swift"; sourceTree = "<group>"; };
+		849D70CD2182E6F300D068C1 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
+		849D70CE2182E6F300D068C1 /* Extension + Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + Data.swift"; sourceTree = "<group>"; };
+		849D70CF2182E6F300D068C1 /* Extension + Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + Bundle.swift"; sourceTree = "<group>"; };
+		849D70D02182E6F300D068C1 /* Extension + UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIDevice.swift"; sourceTree = "<group>"; };
+		849D70D12182E6F300D068C1 /* Extension + UIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIPageViewController.swift"; sourceTree = "<group>"; };
+		849D70D22182E6F300D068C1 /* Extension + UITabBar + UITabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UITabBar + UITabBarController.swift"; sourceTree = "<group>"; };
+		849D70D32182E6F300D068C1 /* Extension + UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UILabel.swift"; sourceTree = "<group>"; };
+		849D70D42182E6F300D068C1 /* Extension + UIImage + UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIImage + UIImageView.swift"; sourceTree = "<group>"; };
+		849D70D52182E6F300D068C1 /* Extension + UISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UISearchBar.swift"; sourceTree = "<group>"; };
+		849D70D62182E6F300D068C1 /* Extension + UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIApplication.swift"; sourceTree = "<group>"; };
+		849D70D72182E6F300D068C1 /* Extension + UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIScrollView.swift"; sourceTree = "<group>"; };
+		849D70D82182E6F300D068C1 /* Extension + URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + URL.swift"; sourceTree = "<group>"; };
+		849D70D92182E6F300D068C1 /* Extension + CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + CALayer.swift"; sourceTree = "<group>"; };
+		849D70DA2182E6F300D068C1 /* Extension + CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + CAGradientLayer.swift"; sourceTree = "<group>"; };
+		849D70DB2182E6F300D068C1 /* Extension + UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UITableView.swift"; sourceTree = "<group>"; };
+		849D70DC2182E6F300D068C1 /* Extension + String + NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + String + NSAttributedString.swift"; sourceTree = "<group>"; };
+		849D70DD2182E6F300D068C1 /* Extension + Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + Dictionary.swift"; sourceTree = "<group>"; };
+		849D70DE2182E6F300D068C1 /* Extension + UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIColor.swift"; sourceTree = "<group>"; };
+		849D70DF2182E6F300D068C1 /* Extension + NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + NSObject.swift"; sourceTree = "<group>"; };
+		849D70E02182E6F300D068C1 /* Extension + Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + Array.swift"; sourceTree = "<group>"; };
+		849D70E12182E6F300D068C1 /* Extension + UIView + UINib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIView + UINib.swift"; sourceTree = "<group>"; };
+		849D70E22182E6F300D068C1 /* Extension + UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UITextView.swift"; sourceTree = "<group>"; };
+		849D70E32182E6F300D068C1 /* Extension + CGAffineTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + CGAffineTransform.swift"; sourceTree = "<group>"; };
+		849D70FF2182E78800D068C1 /* SearchAssestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAssestCell.swift; sourceTree = "<group>"; };
+		849D71002182E78800D068C1 /* SearchAssestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchAssestCell.xib; sourceTree = "<group>"; };
+		84BFF580217EAF2900E1AB78 /* RNView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNView.m; sourceTree = "<group>"; };
+		84F8FEF0217F18D6002E6A8C /* RNVideoViewManagerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVideoViewManagerBridge.m; sourceTree = "<group>"; };
+		84F8FEF2217F1CEB002E6A8C /* RNVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVideoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845384CD217E28E7000BA938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A156963A069E74A5B6B24F6 /* Pods_RNBridgeDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845384C7217E28E7000BA938 = {
+			isa = PBXGroup;
+			children = (
+				845384D2217E28E7000BA938 /* RNBridgeDemo */,
+				845384D1217E28E7000BA938 /* Products */,
+				8AD354D2719D72338907A788 /* Pods */,
+				E7C4BA52055C8A442C87307F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		845384D1217E28E7000BA938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845384D0217E28E7000BA938 /* RNBridgeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845384D2217E28E7000BA938 /* RNBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				845384D3217E28E7000BA938 /* AppDelegate.swift */,
+				845384D5217E28E7000BA938 /* ViewController.swift */,
+				845384E8217E2D29000BA938 /* RNBridgeDemo-Bridging-Header.h */,
+				845384D7217E28E7000BA938 /* Main.storyboard */,
+				845384E7217E2D05000BA938 /* RNComponentDemo */,
+				845384DA217E28E8000BA938 /* Assets.xcassets */,
+				845384DC217E28E8000BA938 /* LaunchScreen.storyboard */,
+				849D70C82182E6F300D068C1 /* Extension */,
+				845384DF217E28E8000BA938 /* Info.plist */,
+				849D70C22182E1C100D068C1 /* CustomViews */,
+			);
+			path = RNBridgeDemo;
+			sourceTree = "<group>";
+		};
+		845384E7217E2D05000BA938 /* RNComponentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				846412F9217E435300189014 /* RNManager.swift */,
+				846412FB217E445600189014 /* RNManagerBridge.m */,
+				846412F3217E431200189014 /* RNView.swift */,
+				84BFF580217EAF2900E1AB78 /* RNView.m */,
+				84639526217EC31300D5A758 /* RNViewManager.swift */,
+				846412F4217E431200189014 /* RNViewManager.m */,
+				8463957B217EFEE700D5A758 /* RNVideoView.swift */,
+				84F8FEF2217F1CEB002E6A8C /* RNVideoView.m */,
+				84F8FEF0217F18D6002E6A8C /* RNVideoViewManagerBridge.m */,
+				8463957D217F03A300D5A758 /* RNVideoViewManager.swift */,
+			);
+			path = RNComponentDemo;
+			sourceTree = "<group>";
+		};
+		849D70C22182E1C100D068C1 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				849D70C52182E27800D068C1 /* SearchAsset */,
+				849D70C62182E53200D068C1 /* CommonSettings.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		849D70C52182E27800D068C1 /* SearchAsset */ = {
+			isa = PBXGroup;
+			children = (
+				849D70C32182E26D00D068C1 /* SearchAsset.swift */,
+				849D70FF2182E78800D068C1 /* SearchAssestCell.swift */,
+				849D71002182E78800D068C1 /* SearchAssestCell.xib */,
+			);
+			path = SearchAsset;
+			sourceTree = "<group>";
+		};
+		849D70C82182E6F300D068C1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				849D70C92182E6F300D068C1 /* Extension + Date.swift */,
+				849D70CA2182E6F300D068C1 /* Extension + WKWebView.swift */,
+				849D70CB2182E6F300D068C1 /* Extension + UIButton.swift */,
+				849D70CC2182E6F300D068C1 /* Extension + UICollectionView.swift */,
+				849D70CD2182E6F300D068C1 /* Extension + UIViewController.swift */,
+				849D70CE2182E6F300D068C1 /* Extension + Data.swift */,
+				849D70CF2182E6F300D068C1 /* Extension + Bundle.swift */,
+				849D70D02182E6F300D068C1 /* Extension + UIDevice.swift */,
+				849D70D12182E6F300D068C1 /* Extension + UIPageViewController.swift */,
+				849D70D22182E6F300D068C1 /* Extension + UITabBar + UITabBarController.swift */,
+				849D70D32182E6F300D068C1 /* Extension + UILabel.swift */,
+				849D70D42182E6F300D068C1 /* Extension + UIImage + UIImageView.swift */,
+				849D70D52182E6F300D068C1 /* Extension + UISearchBar.swift */,
+				849D70D62182E6F300D068C1 /* Extension + UIApplication.swift */,
+				849D70D72182E6F300D068C1 /* Extension + UIScrollView.swift */,
+				849D70D82182E6F300D068C1 /* Extension + URL.swift */,
+				849D70D92182E6F300D068C1 /* Extension + CALayer.swift */,
+				849D70DA2182E6F300D068C1 /* Extension + CAGradientLayer.swift */,
+				849D70DB2182E6F300D068C1 /* Extension + UITableView.swift */,
+				849D70DC2182E6F300D068C1 /* Extension + String + NSAttributedString.swift */,
+				849D70DD2182E6F300D068C1 /* Extension + Dictionary.swift */,
+				849D70DE2182E6F300D068C1 /* Extension + UIColor.swift */,
+				849D70DF2182E6F300D068C1 /* Extension + NSObject.swift */,
+				849D70E02182E6F300D068C1 /* Extension + Array.swift */,
+				849D70E12182E6F300D068C1 /* Extension + UIView + UINib.swift */,
+				849D70E22182E6F300D068C1 /* Extension + UITextView.swift */,
+				849D70E32182E6F300D068C1 /* Extension + CGAffineTransform.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8AD354D2719D72338907A788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7550C3B44B26BAEB01A150DC /* Pods-RNBridgeDemo.debug.xcconfig */,
+				2101A74E70B5F6BAB1564AF9 /* Pods-RNBridgeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7C4BA52055C8A442C87307F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6CBF06B75D7A3830654621 /* Pods_RNBridgeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845384CF217E28E7000BA938 /* RNBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845384E2217E28E8000BA938 /* Build configuration list for PBXNativeTarget "RNBridgeDemo" */;
+			buildPhases = (
+				86CC1800E45AFD3A9E9B9E11 /* [CP] Check Pods Manifest.lock */,
+				845384CC217E28E7000BA938 /* Sources */,
+				845384CD217E28E7000BA938 /* Frameworks */,
+				845384CE217E28E7000BA938 /* Resources */,
+				EE876359C2D430DC37C0616C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBridgeDemo;
+			productName = RNBridgeDemo;
+			productReference = 845384D0217E28E7000BA938 /* RNBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845384C8217E28E7000BA938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = paradise;
+				TargetAttributes = {
+					845384CF217E28E7000BA938 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 845384CB217E28E7000BA938 /* Build configuration list for PBXProject "RNBridgeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845384C7217E28E7000BA938;
+			productRefGroup = 845384D1217E28E7000BA938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845384CF217E28E7000BA938 /* RNBridgeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845384CE217E28E7000BA938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845384DE217E28E8000BA938 /* LaunchScreen.storyboard in Resources */,
+				845384DB217E28E8000BA938 /* Assets.xcassets in Resources */,
+				849D71022182E78800D068C1 /* SearchAssestCell.xib in Resources */,
+				845384D9217E28E7000BA938 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86CC1800E45AFD3A9E9B9E11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNBridgeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE876359C2D430DC37C0616C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNBridgeDemo/Pods-RNBridgeDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNBridgeDemo/Pods-RNBridgeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845384CC217E28E7000BA938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D70F72182E6F300D068C1 /* Extension + String + NSAttributedString.swift in Sources */,
+				849D70EC2182E6F300D068C1 /* Extension + UIPageViewController.swift in Sources */,
+				849D70E42182E6F300D068C1 /* Extension + Date.swift in Sources */,
+				845384D6217E28E7000BA938 /* ViewController.swift in Sources */,
+				849D70F32182E6F300D068C1 /* Extension + URL.swift in Sources */,
+				849D70F02182E6F300D068C1 /* Extension + UISearchBar.swift in Sources */,
+				8463957E217F03A300D5A758 /* RNVideoViewManager.swift in Sources */,
+				849D70FC2182E6F300D068C1 /* Extension + UIView + UINib.swift in Sources */,
+				84F8FEF3217F1CEB002E6A8C /* RNVideoView.m in Sources */,
+				849D70E72182E6F300D068C1 /* Extension + UICollectionView.swift in Sources */,
+				845384D4217E28E7000BA938 /* AppDelegate.swift in Sources */,
+				846412FA217E435300189014 /* RNManager.swift in Sources */,
+				84F8FEF1217F18D6002E6A8C /* RNVideoViewManagerBridge.m in Sources */,
+				849D70EE2182E6F300D068C1 /* Extension + UILabel.swift in Sources */,
+				846412F6217E431200189014 /* RNView.swift in Sources */,
+				849D70F22182E6F300D068C1 /* Extension + UIScrollView.swift in Sources */,
+				849D70FE2182E6F300D068C1 /* Extension + CGAffineTransform.swift in Sources */,
+				849D70F12182E6F300D068C1 /* Extension + UIApplication.swift in Sources */,
+				849D70C72182E53200D068C1 /* CommonSettings.swift in Sources */,
+				849D70E52182E6F300D068C1 /* Extension + WKWebView.swift in Sources */,
+				849D70E62182E6F300D068C1 /* Extension + UIButton.swift in Sources */,
+				849D70EF2182E6F300D068C1 /* Extension + UIImage + UIImageView.swift in Sources */,
+				849D70C42182E26D00D068C1 /* SearchAsset.swift in Sources */,
+				8463957C217EFEE700D5A758 /* RNVideoView.swift in Sources */,
+				849D70F42182E6F300D068C1 /* Extension + CALayer.swift in Sources */,
+				84BFF581217EAF2900E1AB78 /* RNView.m in Sources */,
+				849D70EA2182E6F300D068C1 /* Extension + Bundle.swift in Sources */,
+				84639527217EC31300D5A758 /* RNViewManager.swift in Sources */,
+				849D70F52182E6F300D068C1 /* Extension + CAGradientLayer.swift in Sources */,
+				849D70FB2182E6F300D068C1 /* Extension + Array.swift in Sources */,
+				849D70F62182E6F300D068C1 /* Extension + UITableView.swift in Sources */,
+				849D70E82182E6F300D068C1 /* Extension + UIViewController.swift in Sources */,
+				849D70F92182E6F300D068C1 /* Extension + UIColor.swift in Sources */,
+				849D70F82182E6F300D068C1 /* Extension + Dictionary.swift in Sources */,
+				849D71012182E78800D068C1 /* SearchAssestCell.swift in Sources */,
+				846412FC217E445600189014 /* RNManagerBridge.m in Sources */,
+				849D70FA2182E6F300D068C1 /* Extension + NSObject.swift in Sources */,
+				849D70EB2182E6F300D068C1 /* Extension + UIDevice.swift in Sources */,
+				849D70ED2182E6F300D068C1 /* Extension + UITabBar + UITabBarController.swift in Sources */,
+				849D70FD2182E6F300D068C1 /* Extension + UITextView.swift in Sources */,
+				846412F7217E431200189014 /* RNViewManager.m in Sources */,
+				849D70E92182E6F300D068C1 /* Extension + Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845384D7217E28E7000BA938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845384D8217E28E7000BA938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845384DC217E28E8000BA938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845384DD217E28E8000BA938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845384E0217E28E8000BA938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845384E1217E28E8000BA938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845384E3217E28E8000BA938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7550C3B44B26BAEB01A150DC /* Pods-RNBridgeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y4TPNE48W;
+				INFOPLIST_FILE = RNBridgeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradise.RNBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNBridgeDemo/RNBridgeDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845384E4217E28E8000BA938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2101A74E70B5F6BAB1564AF9 /* Pods-RNBridgeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y4TPNE48W;
+				INFOPLIST_FILE = RNBridgeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradise.RNBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNBridgeDemo/RNBridgeDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845384CB217E28E7000BA938 /* Build configuration list for PBXProject "RNBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845384E0217E28E8000BA938 /* Debug */,
+				845384E1217E28E8000BA938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845384E2217E28E8000BA938 /* Build configuration list for PBXNativeTarget "RNBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845384E3217E28E8000BA938 /* Debug */,
+				845384E4217E28E8000BA938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845384C8217E28E7000BA938 /* Project object */;
+}
